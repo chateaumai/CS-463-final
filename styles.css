@@ -1,0 +1,96 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bio {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.bio::first-line {
+    font-weight: bold;
+}
+
+body {
+    background-color: #D3D3D3;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+}
+
+header {
+    background-color: #000080;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFFF00;
+    text-decoration: underline;
+}
+
+nav a:hover {
+    color: #00FF00;
+}
+
+footer {
+    background-color: #000080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.resume-img {
+    max-width: 750px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #000080; 
+}
+
+/* Work experience */
+article.internship {
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #000080;
+}
+
+.internship h2 {
+    color: #000080;
+    margin-bottom: 5px;
+}
+
+time.date {
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.resume-title {
+    margin-top: 40px;
+}
