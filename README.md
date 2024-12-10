@@ -19,3 +19,18 @@ Here I probably should have seperated it into two different commits, but I doubl
 I had to write a lot more CSS for this and I got lazy during it. For example i wanted to format the images a bit differently for my two projects but instead of figuring out the css for the same class, I just made two classes.
 
 But I am enjoying my theme so far, I have a nice yellow for the shadow of the headers and it reminds me of old movie subtitles - maybe hong kong noir a bit.
+
+### contact
+I am using a contact form similar to the HW here, for my project I deploy all my sites with Netlify, and I saw there is a form submission service for free, so I'm gonna try to use that instead
+of github pages.
+
+This section was straightforward but i was having issues with some spacing for my form container and the text boxes, but added the last line to this fixed it.
+
+```
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000080;
+    box-sizing: border-box;  /* this have equal padding on both sides of form container */
+}
+```
