@@ -1,76 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#previous-work">Previous Work</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#previous-work">Previous Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section id="about" class="container">
-            <h1>About</h1>
-            <img class="img" src="images/me.jpg" alt="Aaron Mai Headshot" width="200" height="200">
-            <p class="bio">
-                My name is Aaron Mai and I am finishing up my last year at PSU. I have
-                lived in Oregon all my life and this is my portfolio website for CS 463 - Intro to Web Development.
-            </p>
-        </section>
+      <img src="images/@.gif" alt="Decorative GIF" class="right-gif" />
+      <img src="images/babhy.gif" alt="Decorative GIF" class="left-gif" />
+      <img
+        src="images/welcome.gif"
+        alt="Welcome animation"
+        style="display: block; margin: 20px auto"
+      />
 
-        <section id="previous-work" class="container">
-            <h1>Work Experience</h1>
-            
-            <article class="internship">
-                <h2>Software Reliability Intern - Trimble</h2>
-                <time class="date">July 2024 - December 2024</time>
-                <p class="description">
-                    At Trimble I am on the construction management software platform team! I am learning
-                    a lot about observability, cloud infra, and infrastructure as code through Terraform.
-                    They are on Azure so I am thankful to be exposed to that cloud provider, as it seems pretty popular.
-                    One thing I've noticed / learned from my team is they are really careful with access controls.
-                    People / entities are given the minimum of access required to function, so that if it were to be compromised, it minimizes
-                    the potential harm.
-                </p>
-            </article>
-        
-            <article class="internship">
-                <h2>Software Engineer Intern - Apex Fintech Solutions</h2>
-                <time class="date">January 2024 - July 2024</time>
-                <p class="description">
-                    When I was working on the ACATS team which dealt with creating the system to facilitate account transfers.
-                    So for example if you changed 401k providers, you would initiate an ACATS to trasnfer the securities and cash from your
-                    previous account to your new account. This way you won't execute a liquidation event that you will need to pay taxes on.
-                    This was my first introduction to how a software engineering team operates, as well as a tech stack in general. They are on GCP and I was
-                    primarily working with Golang.
-                </p>
-            </article>
-        
-            <h2 class="resume-title">Full Resume</h2>
-                <img class="resume-img" src="images/resume.jpg" alt="Aaron Mai's Resume">
-        </section>
+      <section id="about" class="container">
+        <h1>About</h1>
+        <img
+          class="img"
+          src="images/me.jpg"
+          alt="Aaron Mai Headshot"
+          width="200"
+          height="200"
+        />
+        <p class="bio">
+          My name is Aaron Mai and I am finishing up my last year at PSU. I have
+          lived in Oregon all my life and this is my portfolio website for CS
+          463 - Intro to Web Development.
+        </p>
+      </section>
 
-        <section id="projects">
+      <section id="previous-work" class="container">
+        <h1>Work Experience</h1>
 
-        </section>
+        <article class="internship">
+          <h2>Software Reliability Intern - Trimble</h2>
+          <time class="date">July 2024 - December 2024</time>
+          <p class="description">
+            At Trimble I am on the construction management software platform
+            team! I am learning a lot about observability, cloud infra, and
+            infrastructure as code through Terraform. They are on Azure so I am
+            thankful to be exposed to that cloud provider, as it seems pretty
+            popular. One thing I've noticed / learned from my team is they are
+            really careful with access controls. People / entities are given the
+            minimum of access required to function, so that if it were to be
+            compromised, it minimizes the potential harm.
+          </p>
+        </article>
 
-        <section id="contact">
+        <article class="internship">
+          <h2>Software Engineer Intern - Apex Fintech Solutions</h2>
+          <time class="date">January 2024 - July 2024</time>
+          <p class="description">
+            When I was working on the ACATS team which dealt with creating the
+            system to facilitate account transfers. So for example if you
+            changed 401k providers, you would initiate an ACATS to trasnfer the
+            securities and cash from your previous account to your new account.
+            This way you won't execute a liquidation event that you will need to
+            pay taxes on. This was my first introduction to how a software
+            engineering team operates, as well as a tech stack in general. They
+            are on GCP and I was primarily working with Golang.
+          </p>
+        </article>
 
-        </section>
+        <h2 class="resume-title">Full Resume</h2>
+        <img
+          class="resume-img"
+          src="images/resume.jpg"
+          alt="Aaron Mai's Resume"
+        />
+      </section>
+
+      <section id="projects" class="container">
+        <h1>Projects</h1>
+
+        <article class="project">
+          <h2>SalonSpot</h2>
+          <p class="description">
+            SalonSpot is a vertical SaaS for the nail salon industry. I create
+            websites for nail salon owners, and enable them to take online
+            bookings through my software. I have email & SMS notifications
+            implemented for notifying owners when someone books, and to remind
+            customers of their appointment. Owners also have access to view
+            their business related metrics like online booking revenue and
+            in-store checkins through the dashboard.
+          </p>
+          <figure class="project-images">
+            <img
+              src="images/salonspot1.png"
+              alt="SalonSpot Dashboard Calendar"
+              class="project-img"
+            />
+            <img
+              src="images/salonspot2.png"
+              alt="SalonSpot Booking Interface"
+              class="project-img"
+            />
+            <img
+              src="images/salonspot3.png"
+              alt="SalonSpot Dashboard Metrics"
+              class="project-img"
+            />
+            <figcaption>SalonSpot Dashboard and Booking Interface</figcaption>
+          </figure>
+          <aside class="tech-stack">
+            <h3>Technologies Used:</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>Typescript</li>
+              <li>Tailwind CSS</li>
+              <li>Netlify</li>
+              <li>Vercel</li>
+              <li>Golang</li>
+              <li>GCP</li>
+              <li>Docker</li>
+              <li>PostgreSQL</li>
+              <li>Supabase</li>
+              <li>GitHub Actions</li>
+            </ul>
+          </aside>
+          <!-- open link in new tab -->
+          <a
+            href="https://www.getsalonspot.com/"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >getsalonspot.com</a
+          >
+        </article>
+
+        <article class="project">
+          <h2>HearBat</h2>
+          <p class="description">
+            HearBat was me and my team's submission to the 2024 Google Developer
+            Student Club Solution Challenge. My friend and I coded this
+            together, and my girlfriend designed the UI. The app is geared
+            towards people with cochlear implants in order to aid in their
+            hearing journey. When you get an implant, you must retrain your
+            hearing, so this app is kind of like Duolingo but for hearing words
+            instead of languages. I coded most of the UI as well as the main
+            gameplay logic of the Duolingo esque modules.
+          </p>
+          <figure class="project-images-hb">
+            <img
+              src="images/hearbat.png"
+              alt="HearBat Intro Slide"
+              class="project-img-hb"
+            />
+            <img
+              src="images/hearbat1.png"
+              alt="HearBat Module"
+              class="project-img-hb"
+            />
+          </figure>
+          <aside class="tech-stack">
+            <h3>Technologies Used:</h3>
+            <ul>
+              <li>Flutter</li>
+              <li>GCP</li>
+              <li>Gemini API</li>
+            </ul>
+          </aside>
+          <!-- open link in new tab -->
+          <a
+            href="https://www.getsalonspot.com/"
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub Link</a
+          >
+        </article>
+      </section>
+
+      <section id="contact"></section>
     </main>
 
     <footer>
-        <p>My amazing footer text</p>
+      <p>Mai Machine</p>
     </footer>
-</body>
+  </body>
 </html>
