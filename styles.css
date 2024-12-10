@@ -67,7 +67,7 @@ footer {
     height: auto;
     margin: 20px auto;
     display: block;
-    border: 1px solid #000080; 
+    border: 1px solid #000080;
 }
 
 /* Work experience */
@@ -171,7 +171,7 @@ time.date {
 }
 
 .project-img-hb {
-    max-height: 300px; 
+    max-height: 300px;
     width: auto;
     object-fit: contain;
     border: 2px solid #000080;
@@ -185,7 +185,7 @@ figcaption {
 /* random ones */
 h1 {
     font-size: 2.5em;
-    color: #000080;  
+    color: #000080;
     text-align: center;
     margin: 30px 0;
     text-shadow: 2px 2px #ffe600;
@@ -203,7 +203,7 @@ main {
     left: 10px;
     top: 50%;
     transform: translateY(-80%);
-    width: 200px;  
+    width: 200px;
 }
 
 .right-gif {
@@ -211,7 +211,7 @@ main {
     right: 10px;
     top: 50%;
     transform: translateY(-80%);
-    width: 200px;  
+    width: 200px;
 }
 
 /* form stuff */
@@ -239,7 +239,8 @@ main {
     width: 100%;
     padding: 8px;
     border: 1px solid #000080;
-    box-sizing: border-box;  /* this have equal padding on both sides of form container */
+    box-sizing: border-box;
+    /* this have equal padding on both sides of form container */
 }
 
 .form-group textarea {
@@ -257,4 +258,64 @@ main {
 
 .contact-form button:hover {
     background-color: #000060;
+}
+
+@keyframes fallingsparkles {
+    0% {
+        transform: translateY(0) rotate(35deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(200px) rotate(35deg);
+        opacity: 0;
+    }
+}
+
+.star-five {
+    background: transparent;
+    margin: 50px 0;
+    position: relative;
+    display: block;
+    color: #ffea00;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffea00;
+    border-left: 100px solid transparent;
+
+    animation: fallingsparkles 2s linear forwards;
+    /* ADD THIS */
+    /* transform: rotate(35deg) scale(0.1) translate(-1450px, -250px); */
+}
+
+.star-five:before {
+    border-bottom: 80px solid #ffea00;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    background-color: transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -45px;
+    left: -65px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+}
+
+.star-five:after {
+    background-color: transparent;
+    position: absolute;
+    display: block;
+    color: #ffea00;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #ffea00;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
 }

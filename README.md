@@ -34,3 +34,11 @@ This section was straightforward but i was having issues with some spacing for m
     box-sizing: border-box;  /* this have equal padding on both sides of form container */
 }
 ```
+
+### Adding some javascript
+I wanted to add a custom cursor animation, I didn't know where to start so I decided on using this stack overflow [post](https://stackoverflow.com/questions/48161503/is-it-possible-to-add-a-cursor-trail-to-web-page-and-instead-of-a-default-trail).
+
+This was cool (they are dots) but then I found a better one that animates stars, and I changed the color to be yellow and reduced the original number of stars in the array.
+https://stackoverflow.com/questions/64159804/creating-a-disney-dust-style-cursor-trail
+
+I also tried to add a falling animation to the stars, basically combined the two implementations I liked on the stack overflow, I don't think my effect is where I 100% want it though, maybe I will play with it more before I turn it in.
