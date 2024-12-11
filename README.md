@@ -1,5 +1,8 @@
 # The headers will be the commit / session
 
+To run the code just open with a live server and it is also deployed
+https://cs463finalaaronmai.netlify.app/
+
 ### Initial commit
 My first commit was me getting the overall skeleton structure of the page down.
 Sometimes I have troubles with a blank canvas so I started by stealing the about section
